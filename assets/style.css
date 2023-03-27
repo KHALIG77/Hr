@@ -24,6 +24,7 @@
 
 #action .container {
   padding-top: 15px;
+  background-color:white;
   display: flex;
   justify-content: space-around;
   min-height: 50px;
@@ -57,9 +58,11 @@
   color: white;
 }
 #person-info table tr {
+  border-radius:10px;
   text-align: center;
 }
 #person-info table td {
+  border-radius:10px;
   border: 2px solid black;
 }
 
@@ -78,7 +81,7 @@ body {
 }
 
 .container {
-  background-color: aqua;
+  background-color: white;
   border: 1px solid black;
   margin: auto;
   width: 80%;
